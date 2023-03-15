@@ -257,6 +257,9 @@ section {
 }
 
 @media (max-width: 850px) {
+  .magnet .magnet__text {
+    padding: 10px 0;
+  }
   .magnet h1 {
     font-size: 4.5rem;
     color: #fff4c4;
@@ -289,4 +292,7 @@ section {
 
 .footer {
   background-color: #111;
-}/*# sourceMappingURL=styles.css.map */
+}
+.footer p a:hover {
+  color: #fff9e4;
+}
